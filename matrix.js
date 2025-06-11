@@ -20,14 +20,6 @@ const characters = [
   "7",
   "8",
   "9",
-  "C",
-  "I",
-  "U",
-  "D",
-  "A",
-  "D",
-  "N",
-  "O",
 ];
 
 // Create an array of columns
