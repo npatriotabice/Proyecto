@@ -1,162 +1,148 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyecto Niño Patriota Bicentenario</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="icon" type="image/x-icon" href="img/logo2.png" />
+  <link rel="icon" type="image/x-icon" href="img/logo2.png">
 </head>
 
 <body class="dark">
   <canvas id="matrixCanvas"></canvas>
   <script src="matrix.js"></script>
+  
   <div class="main-container">
+    <!-- Barra lateral -->
     <div class="aside">
       <div class="logo">
         <a href="index.html"><span>フセ</span>イン</a>
       </div>
       <div class="nav-toggler">
-        <i style="color: #ff0000;" class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars" style="color: #ff0000;"></i>
       </div>
       <ul class="nav">
-        <li>
-          <a href="#home" class="active"><i class="fa fa-home"></i> Inicio</a>
-        </li>
-        <li>
-          <a href="#about"><i class="fa fa-user"></i> Informacion</a>
-        </li>
-        <li>
-          <a href="#projects"><i class="fa fa-cogs"></i> Proyectos</a>
-        </li>
-        <li>
-          <a href="#contact"><i class="fa fa-comments"></i> Contactos</a>
-        </li>
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Inicio</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> Información</a></li>
+        <li><a href="#projects"><i class="fa fa-cogs"></i> Proyectos</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i> Contactos</a></li>
       </ul>
     </div>
- 
-    <!-- inicio -->
+
+    <!-- Contenido principal -->
     <div class="main-content">
+      <!-- Sección Inicio -->
       <section class="home active section" id="home">
         <div class="container">
           <div class="row">
             <div class="home-info padd-15">
-              <h3 class="hello"> 
-                Hola, esto es el <span style="color: #ff0000;" class="name">Proyecto Niño Patriota Bicentenario</span>
-              </h3>
-              <h3 class="my-profession">
-                Fundado por <span style="color: #ff0000;" class="typing"></span>
-              </h3>
-              <p>Bienvenido a este mundo de aprendizajes, te presento sobre el proyecto niño patriota donde se involucran estudiantes de todas las edades.
-              </p>
-              <p>© 2018 Elizabeth Estrella
-              </p> 
-              <a style="background-color: #ff0000; color: #000000;" href="https://www.instagram.com/npatriotabicentenarioperu/" class="btn">Cuenta de IG sobre el Proyecto</a>
+              <h3 class="hello">Hola, esto es el <span class="name" style="color: #ff0000;">Proyecto Niño Patriota Bicentenario</span></h3>
+              <h3 class="my-profession">Fundado por <span class="typing" style="color: #ff0000;"></span></h3>
+              <p>Bienvenido a este mundo de aprendizajes, te presento sobre el proyecto niño patriota donde se involucran estudiantes de todas las edades.</p>
+              <p>© 2018 Elizabeth Estrella</p>
+              <a href="https://www.instagram.com/npatriotabicentenarioperu/" class="btn" style="background-color: #ff0000; color: #000000;">Cuenta de IG sobre el Proyecto</a>
             </div>
             <div class="home-img padd-15">
-              <img src="img/9.gif" alt="hero" />
+              <img src="img/9.gif" alt="Niño Patriota Bicentenario">
             </div>
           </div>
         </div>
       </section>
 
-<!-- yo -->
-<section class="about section" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="section-title padd-15">
-        <h2 style="color: #ff0000;">Sobre el Proyecto</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="about-content padd-15">
-        <div class="row">
-          <div class="about-text padd-15">
-            <h3>Soy Elizabeth Estrella fundadora del proyecto<span style="color: #ff0000;"> Niño Patriota Bicentenario.&nbsp;&nbsp;</span></h3>
-            <p>
-              La misión que busca este proyecto sin fines de lucro es formar desde la niñez ciudadanos patriotas que vivan su amor por el Perú a través de la práctica de valores, el respeto por su cultura, y el arte como expresión de identidad nacional, promoviendo un estilo de vida activo, solidario, inclusivo y comprometido con el desarrollo del país. 
-            </p>
+      <!-- Sección Información -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2 style="color: #ff0000;">Sobre el Proyecto</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>Soy Elizabeth Estrella fundadora del proyecto <span style="color: #ff0000;">Niño Patriota Bicentenario.</span></h3>
+                  <p>La misión que busca este proyecto sin fines de lucro es formar desde la niñez ciudadanos patriotas que vivan su amor por el Perú a través de la práctica de valores, el respeto por su cultura, y el arte como expresión de identidad nacional.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Fecha de Fundación: <span>6/3/2018</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Tiempo del Proyecto: <span>7 años</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Teléfono: <span>94520654</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Colegio Involucrado: <span>I.E PNP Cabo Martin Esquicha Bernedo</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>País: <span>Perú</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Idiomas: <span>Español & Inglés</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="https://wa.me/51945206564" class="btn" style="background-color: #ff0000; color: #000000;">Mi WhatsApp</a>
+                      <a href="#contact" class="btn hire-me" style="background-color: #ff0000; color: #000000;">Contáctame</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skills-item padd-15">
+                      <h5>Mejora en la institución</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 95%; background-color: #ff0000;"></div>
+                        <div class="skill-percent">95%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>Desarrollo del Proyecto</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 100%; background-color: #ff0000;"></div>
+                        <div class="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>Apoyo de Instituciones</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 60%; background-color: #ff0000;"></div>
+                        <div class="skill-percent">60%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>Participación de los estudiantes</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 50%; background-color: #ff0000;"></div>
+                        <div class="skill-percent">50%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>Logros</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 50%; background-color: #ff0000;"></div>
+                        <div class="skill-percent">50%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="personal-info padd-15">
-            <div class="row">
-              <div class="info-item padd-15">
-                <p>Fecha de Fundacion : <span>6/3/2018</span></p>
-              </div>
-              <div class="info-item padd-15">
-                <p>Tiempo del Proyecto : <span>7 años</span></p>
-              </div>
-              <div class="info-item padd-15">
-                <p>Telefono : <span>94520654</span></p>
-              </div>
-              <div class="info-item padd-15">
-                <p>Colegio Involucrado : <span>I.E PNP Cabo Martin Esquicha Bernedo</span></p>
-              </div>
-              <div class="info-item padd-15">
-                <p>Pais : <span>Perú </span></p>
-              </div>
-              <div class="info-item padd-15">
-                <p>Idiomas : <span>Español & Ingles</span></p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="buttons padd-15">
-                <a style="background-color: #ff0000; color: #000000;" href="https://wa.me/51945206564" class="btn">Mi WhatsApp</a>
-                <a style="background-color: #ff0000; color: #000000;" href="#contact" class="btn hire-me">Contactame</a>
-              </div>
-            </div>
-          </div>
-          <div class="skills padd-15">
-            <div class="row">
-              <div class="skills-item padd-15">
-                <h5>Mejoria en la institucion</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 95%; background-color: #ff0000;"></div>
-                  <div class="skill-percent">95%</div>
-                </div>
-              </div>
-              <div class="skills-item padd-15">
-                <h5>Desarollo del Proyecto</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 100%; background-color: #ff0000;"></div>
-                  <div class="skill-percent">100%</div>
-                </div>
-              </div>
-              <div class="skills-item padd-15">
-                <h5>Apoyo de Instituciones</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 60%; background-color: #ff0000;"></div>
-                  <div class="skill-percent">60%</div>
-                </div>
-              </div>
-              <div class="skills-item padd-15">
-                <h5>Participacion de los estudiantes</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 50%; background-color: #ff0000;"></div>
-                  <div class="skill-percent">50%</div>
-                </div>
-              </div>
-              <div class="skills-item padd-15">
-                <h5>Logros</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 50%; background-color: #ff0000;"></div>
-                  <div class="skill-percent">50%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
-      
-      <!-- Anexos -->
+      <!-- Sección Proyectos -->
       <section class="projects section" id="projects">
         <div class="container">
           <div class="row">
@@ -167,61 +153,53 @@
           <div class="proyectos-container">
             <div class="anexos">
               <h3>Estudiantes</h3>
-              <p>
-                Dia de la bandera
-              </p>
-              <img src="img/minedou.png" alt="minedou" class="mapa-imagen">
+              <p>Día de la bandera</p>
+              <img src="img/minedou.png" alt="Día de la bandera" class="mapa-imagen">
             </div>
             <div class="proyecto">
-              <h3>Condecoracion</h3>
-              <p>
-                Participacion en el congreso
-              </p>
-              <img src="img/slunmc.png" alt="slunmc" class="mapa-imagen">
+              <h3>Condecoración</h3>
+              <p>Participación en el congreso</p>
+              <img src="img/slunmc.png" alt="Participación en el congreso" class="mapa-imagen">
             </div>
             <div class="proyecto">
               <h3>Reciclaje</h3>
-              <p>
-                Campaña de Reciclaje
-              </p>
-              <img src="img/fearmc1.png" alt="fearmc" class="mapa-imagen">
+              <p>Campaña de Reciclaje</p>
+              <img src="img/fearmc1.png" alt="Campaña de Reciclaje" class="mapa-imagen">
             </div>
           </div>
         </div>
       </section>
-      
-      <!-- contacto -->
+
+      <!-- Sección Contacto -->
       <section class="contact section" id="contact">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
-              <h2 style="color: #ff0000;">Contactame</h2>
+              <h2 style="color: #ff0000;">Contáctame</h2>
             </div>
           </div>
           <h3 class="contact-title padd-15">¿Quieres saber más sobre el proyecto?</h3>
-          <h4 class="contact-sub-title padd-15">Aquí estaran algunas de mis redes sociales.</h4>
+          <h4 class="contact-sub-title padd-15">Aquí estarán algunas de mis redes sociales.</h4>
           <div class="row">
-          <div class="contact-info-item padd-15">
-          <i class='fa-brands fa-facebook' style="color:#ff0000" var(--skin-color);"></i>
-          <h4>Facebook</h4>
-          <a href="https://www.facebook.com/npatriotabicentenarioperu" target="_blank">
-          <p>Visita mi perfil</p>
-          </a>
-           </div>
             <div class="contact-info-item padd-15">
-            <i class='bx bxl-instagram' style="color: #ff0000;": var(--skin-color);"></i>
-            <h4>Instagram</h4>
-             <a href="https://www.instagram.com/npatriotabicentenarioperu" target="_blank">
-            <p>Visita mi perfil</p>
-            </a>
+              <i class="fa-brands fa-facebook" style="color: #ff0000;"></i>
+              <h4>Facebook</h4>
+              <a href="https://www.facebook.com/npatriotabicentenarioperu" target="_blank">
+                <p>Visita mi perfil</p>
+              </a>
             </div>
             <div class="contact-info-item padd-15">
-            <i class='fa-brands fa-tiktok' style="color:#ff0000;"></i>
-            <h4>TikTok</h4>
-            <a href="https://www.tiktok.com/@nio.patriota.bice" target="_blank">
-            <p>Visita mi TikTok</p>
-            </a>
+              <i class="bx bxl-instagram" style="color: #ff0000;"></i>
+              <h4>Instagram</h4>
+              <a href="https://www.instagram.com/npatriotabicentenarioperu" target="_blank">
+                <p>Visita mi perfil</p>
+              </a>
             </div>
+            <div class="contact-info-item padd-15">
+              <i class="fa-brands fa-tiktok" style="color: #ff0000;"></i>
+              <h4>TikTok</h4>
+              <a href="https://www.tiktok.com/@nio.patriota.bice" target="_blank">
+                <p>Visita mi TikTok</p>
               </a>
             </div>
           </div>
@@ -230,9 +208,7 @@
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
   <script src="main.js"></script>
-
 </body>
 </html>
